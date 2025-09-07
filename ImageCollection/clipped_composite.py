@@ -10,7 +10,7 @@ import ee
 from ee_plugin import Map
 
 
-Map.setCenter(-110, 40, 5)
+Map.setCenter(41.802, 8.590, 5)
 fc = ee.FeatureCollection('TIGER/2018/States').filter(ee.Filter.eq('STUSPS', 'MN'))
 
 # Create a Landsat 7, median-pixel composite for Spring of 2000.
