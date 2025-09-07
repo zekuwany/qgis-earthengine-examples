@@ -11,7 +11,7 @@ visParams = {
   'opacity': 0.8,
 }
 image = ee.Image().float().paint(dataset, 'REP_AREA')
-Map.setCenter(41.104, -17.724, 6)
+Map.setCenter(41.802, 8.590, 6)
 Map.addLayer(image, visParams, 'WCMC/WDPA/current/polygons')
 # Map.addLayer(dataset, {}, 'for Inspector', False)
 
@@ -22,5 +22,5 @@ styleParams = {
   'width': 1,
 }
 protectedAreaPoints = dataset.style(**styleParams)
-# Map.setCenter(110.57, 0.88, 4)
+# Map.setCenter(41.802, 8.590, 4)
 Map.addLayer(protectedAreaPoints, {}, 'WCMC/WDPA/current/points')
