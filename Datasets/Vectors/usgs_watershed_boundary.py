@@ -10,7 +10,7 @@ styleParams = {
   'width': 3.0,
 }
 regions = dataset.style(**styleParams)
-Map.setCenter(-96.8, 40.43, 4)
+Map.setCenter(41.802, 8.590, 4)
 Map.addLayer(regions, {}, 'USGS/WBD/2017/HUC02')
 
 
@@ -21,7 +21,7 @@ styleParams = {
   'width': 3.0,
 }
 subregions = dataset.style(**styleParams)
-Map.setCenter(-110.904, 36.677, 7)
+Map.setCenter(41.802, 8.5907, 7)
 Map.addLayer(subregions, {}, 'USGS/WBD/2017/HUC04')
 
 
@@ -32,7 +32,7 @@ styleParams = {
   'width': 3.0,
 }
 basins = dataset.style(**styleParams)
-Map.setCenter(-96.8, 40.43, 7)
+Map.setCenter(41.802, 8.590, 7)
 Map.addLayer(basins, {}, 'USGS/WBD/2017/HUC06')
 
 
@@ -43,7 +43,7 @@ styleParams = {
   'width': 2.0,
 }
 subbasins = dataset.style(**styleParams)
-Map.setCenter(-96.8, 40.43, 8)
+Map.setCenter(41.802, 8.590, 8)
 Map.addLayer(subbasins, {}, 'USGS/WBD/2017/HUC08')
 
 
@@ -54,7 +54,7 @@ styleParams = {
   'width': 1.0,
 }
 watersheds = dataset.style(**styleParams)
-Map.setCenter(-96.8, 40.43, 9)
+Map.setCenter(41.802, 8.590, 9)
 Map.addLayer(watersheds, {}, 'USGS/WBD/2017/HUC10')
 
 
@@ -65,5 +65,5 @@ styleParams = {
   'width': 0.1,
 }
 subwatersheds = dataset.style(**styleParams)
-Map.setCenter(-96.8, 40.43, 10)
+Map.setCenter(41.802, 8.590, 10)
 Map.addLayer(subwatersheds, {}, 'USGS/WBD/2017/HUC12')
