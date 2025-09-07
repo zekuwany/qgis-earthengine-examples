@@ -12,6 +12,6 @@ visParams = {
 }
 
 image = ee.Image().float().paint(dataset, 'area')
-Map.setCenter(-35.618, 66.743, 7)
+Map.setCenter(41.802, 8.590, 7)
 Map.addLayer(image, visParams, 'GLIMS/current')
 # Map.addLayer(dataset, {}, 'for Inspector', False)
