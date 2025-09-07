@@ -3,7 +3,7 @@
 import ee 
 from ee_plugin import Map 
 
-roi = ee.Geometry.Point([-99.2182, 46.7824])
+roi = ee.Geometry.Point([41.802, 8.590])
 
 # find images acquired during June and July
 collection = ee.ImageCollection('LANDSAT/LC08/C01/T1_TOA') \
