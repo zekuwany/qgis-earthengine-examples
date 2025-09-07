@@ -3,7 +3,7 @@ from ee_plugin import Map
 
 
 
-fromFT = ee.FeatureCollection('ft:1CLldB-ULPyULBT2mxoRNv7enckVF0gCQoD2oH7XP')
+fromFT = ee.FeatureCollection('projects/ee-zekuwany/assets/Park_Catchment')
 polys = fromFT.geometry()
 centroid = polys.centroid()
 lng, lat = centroid.getInfo()['coordinates']
