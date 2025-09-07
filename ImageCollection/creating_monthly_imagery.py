@@ -3,8 +3,8 @@
 import ee
 from ee_plugin import Map
 
-p1 = ee.Geometry.Point([103.521, 13.028])
-p2 = ee.Geometry.Point([105.622, 13.050])
+p1 = ee.Geometry.Point([41.7883, 9.0555])
+p2 = ee.Geometry.Point([41.9723, 7.932])
 Date_Start = ee.Date('2000-05-01')
 Date_End = ee.Date('2007-12-01')
 Date_window = ee.Number(30)
