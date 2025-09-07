@@ -8,7 +8,7 @@ endTime = datetime.datetime(2001, 2, 1)
 lst = ee.ImageCollection('FORA0125_H002').filterDate(startTime, endTime)
 
 # Get the time series at these points.
-points = [ee.Geometry.Point(-85.16516, 30.850000000000001)]
+points = [ee.Geometry.Point(41.7515, 9.246)]
 collection = ee.FeatureCollection(points)
 
 
