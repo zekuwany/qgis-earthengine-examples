@@ -11,7 +11,7 @@ visParams = {
   'opacity': 0.8,
 }
 image = ee.Image().float().paint(dataset, 'shape_area')
-Map.setCenter(-99.814, 40.166, 5)
+Map.setCenter(41.802, 8.590, 5)
 Map.addLayer(image, visParams, 'EPA/Ecoregions/2013/L3')
 # Map.addLayer(dataset, {}, 'for Inspector', False)
 
@@ -24,6 +24,6 @@ visParams = {
   'opacity': 0.8,
 }
 image = ee.Image().float().paint(dataset, 'shape_area')
-Map.setCenter(-99.814, 40.166, 5)
+Map.setCenter(41.802, 8.590, 5)
 Map.addLayer(image, visParams, 'EPA/Ecoregions/2013/L4')
 # Map.addLayer(dataset, {}, 'for Inspector', False)
