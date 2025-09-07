@@ -14,7 +14,7 @@ composite = ee.Algorithms.Landsat.simpleComposite(**{
 })
 
 # Pick a spot with lots of clouds.
-Map.setCenter(-47.6735, -0.6344, 12)
+Map.setCenter(41.802, 8.590, 12)
 # Display a composite with a band combination chosen from:
 # https:#landsat.usgs.gov/how-do-landsat-8-band-combinations-differ-landsat-7-or-landsat-5-satellite-data
 Map.addLayer(composite, {'bands': ['B6', 'B5', 'B4'], 'max': [0.3, 0.4, 0.3]})
