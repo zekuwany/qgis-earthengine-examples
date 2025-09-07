@@ -2,9 +2,9 @@ import ee
 from ee_plugin import Map 
 
 # Load a Landsat 8 ImageCollection for a single path-row.
-collection = ee.ImageCollection('LANDSAT/LC08/C01/T1_TOA') \
-    .filter(ee.Filter.eq('WRS_PATH', 44)) \
-    .filter(ee.Filter.eq('WRS_ROW', 34)) \
+collection = ee.ImageCollection('LANDSAT/LC08/C02/T1_TOA') \
+    .filter(ee.Filter.eq('WRS_PATH', 166)) \
+    .filter(ee.Filter.eq('WRS_ROW', 54)) \
     .filterDate('2014-03-01', '2014-08-01')
 print('Collection: ', collection.getInfo())
 
