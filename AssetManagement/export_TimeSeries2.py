@@ -4,7 +4,7 @@ import ee
 
 ee.Initialize();
 
-# samples = ee.FeatureCollection("ft:1_8mT4yfCqVfVMr9zykhdXszdjxcpxtUSA6F2KqyZ");
+# samples = ee.FeatureCollection("projects/ee-zekuwany/assets/Park_Catchment");
 samples = ee.FeatureCollection(ee.Geometry.MultiPoint([[41.60149951171874, 9.308978413841306],
           [41.60149951171874, 7.866935433696327],
           [42.01074023437499, 7.866935433696327],
