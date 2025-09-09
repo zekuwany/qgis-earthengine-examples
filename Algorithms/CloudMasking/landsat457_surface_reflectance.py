@@ -26,5 +26,5 @@ composite = collection \
     .median()
 
 # Display the results in a cloudy place.
-Map.setCenter(-6.2622, 53.3473, 12)
+Map.setCenter(41.80, 8.59, 12)
 Map.addLayer(composite, {'bands': ['B3', 'B2', 'B1'], 'min': 0, 'max': 3000})
